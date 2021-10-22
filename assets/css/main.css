@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+
 /* Basic */
 
 	html {
