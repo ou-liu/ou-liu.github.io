@@ -2111,7 +2111,15 @@ nav ul li a:hover {
 }
 
 
-.logo {
+   .navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 50px; /* change it to desired width */
+    background-color: #282828;
+    float: left;
+    text-align: right
+}
+
+              .logo {
     display: inline;
     vertical-align: top;
     width: 50px;
@@ -2119,6 +2127,30 @@ nav ul li a:hover {
     margin-right: 0px;
     margin-top: 0px;    /* if you want it vertically middle of the navbar. */
 }
+
+        .navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+     float:right;
+    margin-right: 20px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
+}
+
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: right;
+  float: right;
+  
+}
+    .navigation-bar li {
+			display: inline-block;
+			padding-left: 0;
+                        float: right
+     }
+
+
 
 
 
