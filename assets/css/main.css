@@ -2040,6 +2040,81 @@ li:not(:last-child) {
 
 /* Nav */
 
+/* newly added */
+
+nav {
+  		background-color: #282828;
+ /* margin: 0;*/
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  height: 3.5em;
+  line-height: 3.5em;
+}
+nav ul {
+                       margin-bottom: 0;
+			list-style: none;
+			padding-left: 0;
+		
+}
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  float: right;
+}
+nav ul li a {
+  
+-moz-transition: background-color .2s ease-in-out;
+			-webkit-transition: background-color .2s ease-in-out;
+			-ms-transition: background-color .2s ease-in-out;
+			transition: background-color .2s ease-in-out;
+			position: relative;
+			display: block;
+			color: #fff;
+			text-decoration: none;
+			outline: 0;
+			font-weight: 600;
+			border-radius: 8px;
+                       bottom: 0.85em;
+			color: #fff;
+			height: 2.5em;
+			line-height: 2.5em;
+			padding: 0 1.25em;
+
+
+ /* color: white;
+background-color: red;*/
+  display: block;
+  line-height: 3.5em;
+  padding: 1em 3.5em;
+  text-decoration: none; */
+}
+nav ul li:first-child {
+  margin-right: auto;
+  float: left
+}
+
+nav ul li:first-child a{
+    bottom: 0em;
+}
+
+nav ul li a.logo {
+  background-color:  #282828;
+  line-height: 2.5em;
+  height: 2.5em;
+}
+nav ul li a:hover {
+  background-color:  #282828;
+}
+
+
+
+
+/* newly added end*/
+
 
 
 	#nav {
