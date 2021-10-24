@@ -2040,11 +2040,11 @@ li:not(:last-child) {
 
 /* Nav */
 
-/* newly added */
+/*
 
 nav {
   		background-color: #282828;
- /* margin: 0;*/
+
   overflow: hidden;
   position: fixed;
   left: 0;
@@ -2085,8 +2085,8 @@ nav ul li a {
 			padding: 0 1.25em;
 
 
- /* color: white;
-background-color: red;*/
+color: white;
+background-color: red;
   display: block;
   line-height: 3.5em;
   padding: 1em 3.5em;
@@ -2112,8 +2112,8 @@ nav ul li a:hover {
 
 
    .navigation-bar {
-    width: 100%;  /* i'm assuming full width */
-    height: 50px; /* change it to desired width */
+    width: 100%; 
+    height: 50px; 
     background-color: #282828;
     float: left;
     text-align: right
@@ -2125,7 +2125,7 @@ nav ul li a:hover {
     width: 180px;
     height: 50px;
     margin-right: 0px;
-    margin-top: 0px;    /* if you want it vertically middle of the navbar. */
+    margin-top: 0px;   
 }
 
         .navigation-bar > a {
@@ -2133,8 +2133,8 @@ nav ul li a:hover {
     vertical-align: top;
      float:right;
     margin-right: 20px;
-    height: 80px;        /* if you want it to take the full height of the bar */
-    line-height: 80px;    /* if you want it vertically middle of the navbar */
+    height: 80px;        
+    line-height: 80px;   
 }
 
 .navigation-bar ul {
@@ -2151,7 +2151,7 @@ nav ul li a:hover {
      }
 
 
-
+*/
 
 
 
